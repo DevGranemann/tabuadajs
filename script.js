@@ -13,6 +13,6 @@ function tabuada() {
     for (let contador = 1; contador <= 10; contador++) {
         let item = document.createElement('option')
         item.text += `${number} x ${contador} = ${contador * number}`
-        tab.appendChild(item)
+        tab.appendChild(item) // função que adiciona um elemento filho ao DOM
     }
-}   
+}
